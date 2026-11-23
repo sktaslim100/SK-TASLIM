@@ -1494,18 +1494,12 @@ body {
    10. LAND YOUR DREAM JOB LIKE OUR ALUMNI
    ========================================================================== */
 #alumni {
-  background-color: var(--lp-red);
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-#alumni .lp-section-heading,
-#alumni .lp-accent {
-  color: var(--lp-white);
+  background-color: var(--lp-white);
 }
 
 .lp-alumni-card {
-  background: var(--lp-white);
-  border: 1px solid rgba(255, 255, 255, 0.9);
+  background: var(--lp-red);
+  border: 1px solid var(--lp-red);
   border-radius: var(--lp-radius-lg);
   padding: 28px;
   box-shadow: var(--lp-shadow-lg);
@@ -1520,13 +1514,13 @@ body {
 .lp-logo-tile {
   height: 60px;
   background: var(--lp-white);
-  border: 1px solid #f0f1f4;
+  border: 1px solid rgba(255, 255, 255, 0.9);
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 8px 10px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   font-weight: 700;
   font-size: 14px;
   text-align: center;
